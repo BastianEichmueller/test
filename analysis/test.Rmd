@@ -60,8 +60,7 @@ with(d,
 ```{r}
 d %>% 
   ggplot(aes(x=american_joint_committee_on_cancer_tumor_stage_code, col=sex))+
-  geom_bar(position = "dodge")+
-  theme_dark()
+  geom_bar(position = "dodge")
 ```
 
 ```{r}
