@@ -9,8 +9,9 @@
 <meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
-<meta name="author" content="Bastian Eichmüller" />
+<meta name="author" content="BastianEichmueller" />
 
+<meta name="date" content="2021-02-19" />
 
 <title>test</title>
 
@@ -378,8 +379,8 @@ div.tocify {
 
 
 <h1 class="title toc-ignore">test</h1>
-<h4 class="author">Bastian Eichmüller</h4>
-<h4 class="date">2021 M02 19</h4>
+<h4 class="author">BastianEichmueller</h4>
+<h4 class="date">2021-02-19</h4>
 
 </div>
 
@@ -495,16 +496,16 @@ This reproducible <a href="http://rmarkdown.rstudio.com">R Markdown</a> analysis
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomBastianEichmuellertesttree4b8778d476bef5f2ab1b0e235ad6a298aaaea131targetblank4b8778da"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/BastianEichmueller/test/tree/4b8778d476bef5f2ab1b0e235ad6a298aaaea131" target="_blank">4b8778d</a> </a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomBastianEichmuellertesttree4135d10dbd355ea9d261cffa5c1d7ffdee9e0b70targetblank4135d10a"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/BastianEichmueller/test/tree/4135d10dbd355ea9d261cffa5c1d7ffdee9e0b70" target="_blank">4135d10</a> </a>
 </p>
 </div>
-<div id="strongRepositoryversionstrongahrefhttpsgithubcomBastianEichmuellertesttree4b8778d476bef5f2ab1b0e235ad6a298aaaea131targetblank4b8778da" class="panel-collapse collapse">
+<div id="strongRepositoryversionstrongahrefhttpsgithubcomBastianEichmuellertesttree4135d10dbd355ea9d261cffa5c1d7ffdee9e0b70targetblank4135d10a" class="panel-collapse collapse">
 <div class="panel-body">
 <p>
 Great! You are using Git for version control. Tracking code development and connecting the code version to the results is critical for reproducibility.
 </p>
 <p>
-The results in this page were generated with repository version <a href="https://github.com/BastianEichmueller/test/tree/4b8778d476bef5f2ab1b0e235ad6a298aaaea131" target="_blank">4b8778d</a>. See the <em>Past versions</em> tab to see a history of the changes made to the R Markdown and HTML files.
+The results in this page were generated with repository version <a href="https://github.com/BastianEichmueller/test/tree/4135d10dbd355ea9d261cffa5c1d7ffdee9e0b70" target="_blank">4135d10</a>. See the <em>Past versions</em> tab to see a history of the changes made to the R Markdown and HTML files.
 </p>
 <p>
 Note that you need to be careful to ensure that all relevant files for the analysis have been committed to Git prior to generating the results (you can use <code>wflow_publish</code> or <code>wflow_git_commit</code>). workflowr only checks the R Markdown file, but you know if there are other scripts or data files that it depends on. Below is the status of the Git repository when the results were generated:
@@ -512,6 +513,10 @@ Note that you need to be careful to ensure that all relevant files for the analy
 <pre><code>
 Ignored files:
     Ignored:    .Rproj.user/
+
+Untracked files:
+    Untracked:  analysis/test2.Rmd
+    Untracked:  data/luad_tcga_pan_can_atlas_2018_clinical_data.tsv
 
 </code></pre>
 <p>
@@ -550,6 +555,40 @@ Message
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>
+Rmd
+</td>
+<td>
+<a href="https://github.com/BastianEichmueller/test/blob/4135d10dbd355ea9d261cffa5c1d7ffdee9e0b70/analysis/test.Rmd" target="_blank">4135d10</a>
+</td>
+<td>
+BastianEichmueller
+</td>
+<td>
+2021-02-19
+</td>
+<td>
+wflow_publish(files = &quot;analysis/test.Rmd&quot;)
+</td>
+</tr>
+<tr>
+<td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/BastianEichmueller/test/d64ca74f9787b98f44eff9eb7b48c0e230dcc461/docs/test.html" target="_blank">d64ca74</a>
+</td>
+<td>
+BastianEichmueller
+</td>
+<td>
+2021-02-19
+</td>
+<td>
+Build site.
+</td>
+</tr>
 <tr>
 <td>
 html
@@ -591,24 +630,207 @@ wflow_publish(files = &quot;analysis/test.Rmd&quot;)
 </div>
 </div>
 </div>
-<div id="r-markdown" class="section level2">
-<h2>R Markdown</h2>
-<p>This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href="http://rmarkdown.rstudio.com" class="uri">http://rmarkdown.rstudio.com</a>.</p>
-<p>When you click the <strong>Knit</strong> button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:</p>
-<pre class="r"><code>summary(cars)</code></pre>
-<pre><code>     speed           dist       
- Min.   : 4.0   Min.   :  2.00  
- 1st Qu.:12.0   1st Qu.: 26.00  
- Median :15.0   Median : 36.00  
- Mean   :15.4   Mean   : 42.98  
- 3rd Qu.:19.0   3rd Qu.: 56.00  
- Max.   :25.0   Max.   :120.00  </code></pre>
-</div>
-<div id="including-plots" class="section level2">
-<h2>Including Plots</h2>
-<p>You can also embed plots, for example:</p>
-<p><img src="figure/test.Rmd/pressure-1.png" width="672" style="display: block; margin: auto;" /></p>
-<p>Note that the <code>echo = FALSE</code> parameter was added to the code chunk to prevent printing of the R code that generated the plot.</p>
+<div id="luad-analysis" class="section level2">
+<h2>Luad analysis</h2>
+<pre class="r"><code>library(tidyverse)</code></pre>
+<pre><code>-- Attaching packages ----------------------------------------------------------------------------------------- tidyverse 1.3.0 --</code></pre>
+<pre><code>v ggplot2 3.3.2     v purrr   0.3.4
+v tibble  3.0.3     v dplyr   1.0.0
+v tidyr   1.1.0     v stringr 1.4.0
+v readr   1.3.1     v forcats 0.5.0</code></pre>
+<pre><code>-- Conflicts -------------------------------------------------------------------------------------------- tidyverse_conflicts() --
+x dplyr::filter() masks stats::filter()
+x dplyr::lag()    masks stats::lag()</code></pre>
+<pre class="r"><code>dat &lt;- read_tsv(&quot;data/luad_tcga_pan_can_atlas_2018_clinical_data.tsv&quot;) %&gt;% 
+  select(
+    where(
+      ~sum(!is.na(.x)) &gt; 0
+    )
+  ) %&gt;% 
+  tibble(.name_repair = &quot;universal&quot;)</code></pre>
+<pre><code>Parsed with column specification:
+cols(
+  .default = col_character(),
+  `Diagnosis Age` = col_double(),
+  `Aneuploidy Score` = col_double(),
+  `Buffa Hypoxia Score` = col_double(),
+  `Last Communication Contact from Initial Pathologic Diagnosis Date` = col_double(),
+  `Birth from Initial Pathologic Diagnosis Date` = col_double(),
+  `Last Alive Less Initial Pathologic Diagnosis Date Calculated Day Value` = col_double(),
+  `Disease Free (Months)` = col_double(),
+  `Months of disease-specific survival` = col_double(),
+  `Fraction Genome Altered` = col_double(),
+  `Neoplasm Histologic Grade` = col_logical(),
+  `MSI MANTIS Score` = col_double(),
+  `MSIsensor Score` = col_double(),
+  `Mutation Count` = col_double(),
+  `Overall Survival (Months)` = col_double(),
+  `Progress Free Survival (Months)` = col_double(),
+  `Primary Lymph Node Presentation Assessment` = col_logical(),
+  `Ragnum Hypoxia Score` = col_double(),
+  `Number of Samples Per Patient` = col_double(),
+  `Patient Weight` = col_logical(),
+  `Winter Hypoxia Score` = col_double()
+)</code></pre>
+<pre><code>See spec(...) for full column specifications.</code></pre>
+<pre><code>New names:
+* `Study ID` -&gt; Study.ID
+* `Patient ID` -&gt; Patient.ID
+* `Sample ID` -&gt; Sample.ID
+* `Diagnosis Age` -&gt; Diagnosis.Age
+* `Neoplasm Disease Stage American Joint Committee on Cancer Code` -&gt; Neoplasm.Disease.Stage.American.Joint.Committee.on.Cancer.Code
+* ...</code></pre>
+<pre class="r"><code>names(dat) &lt;- tolower(gsub(&quot;\\.&quot;, &quot;_&quot;, names(dat)))
+head(dat)</code></pre>
+<pre><code># A tibble: 6 x 96
+  study_id patient_id sample_id diagnosis_age neoplasm_diseas~ american_joint_~
+  &lt;chr&gt;    &lt;chr&gt;      &lt;chr&gt;             &lt;dbl&gt; &lt;chr&gt;            &lt;chr&gt;           
+1 luad_tc~ TCGA-05-4~ TCGA-05-~            70 STAGE IV         6TH             
+2 luad_tc~ TCGA-05-4~ TCGA-05-~            67 STAGE IB         6TH             
+3 luad_tc~ TCGA-05-4~ TCGA-05-~            79 STAGE IIIA       6TH             
+4 luad_tc~ TCGA-05-4~ TCGA-05-~            68 STAGE IB         6TH             
+5 luad_tc~ TCGA-05-4~ TCGA-05-~            66 STAGE IIIA       6TH             
+6 luad_tc~ TCGA-05-4~ TCGA-05-~            70 STAGE IA         5TH             
+# ... with 90 more variables: aneuploidy_score &lt;dbl&gt;,
+#   buffa_hypoxia_score &lt;dbl&gt;, cancer_type &lt;chr&gt;,
+#   tcga_pancanatlas_cancer_type_acronym &lt;chr&gt;, cancer_type_detailed &lt;chr&gt;,
+#   center_of_sequencing &lt;chr&gt;,
+#   last_communication_contact_from_initial_pathologic_diagnosis_date &lt;dbl&gt;,
+#   birth_from_initial_pathologic_diagnosis_date &lt;dbl&gt;,
+#   last_alive_less_initial_pathologic_diagnosis_date_calculated_day_value &lt;dbl&gt;,
+#   disease_free__months_ &lt;dbl&gt;, disease_free_status &lt;chr&gt;,
+#   months_of_disease_specific_survival &lt;dbl&gt;,
+#   disease_specific_survival_status &lt;chr&gt;, ethnicity_category &lt;chr&gt;,
+#   form_completion_date &lt;chr&gt;, fraction_genome_altered &lt;dbl&gt;,
+#   neoadjuvant_therapy_type_administered_prior_to_resection_text &lt;chr&gt;,
+#   icd_10_classification &lt;chr&gt;,
+#   international_classification_of_diseases_for_oncology__third_edition_icd_o_3_histology_code &lt;chr&gt;,
+#   international_classification_of_diseases_for_oncology__third_edition_icd_o_3_site_code &lt;chr&gt;,
+#   informed_consent_verified &lt;chr&gt;, in_pancan_pathway_analysis &lt;chr&gt;,
+#   msi_mantis_score &lt;dbl&gt;, msisensor_score &lt;dbl&gt;, mutation_count &lt;dbl&gt;,
+#   new_neoplasm_event_post_initial_therapy_indicator &lt;chr&gt;,
+#   oncotree_code &lt;chr&gt;, overall_survival__months_ &lt;dbl&gt;,
+#   overall_survival_status &lt;chr&gt;, other_patient_id &lt;chr&gt;,
+#   american_joint_committee_on_cancer_metastasis_stage_code &lt;chr&gt;,
+#   neoplasm_disease_lymph_node_stage_american_joint_committee_on_cancer_code &lt;chr&gt;,
+#   american_joint_committee_on_cancer_tumor_stage_code &lt;chr&gt;,
+#   person_neoplasm_cancer_status &lt;chr&gt;, progress_free_survival__months_ &lt;dbl&gt;,
+#   progression_free_status &lt;chr&gt;, prior_diagnosis &lt;chr&gt;, race_category &lt;chr&gt;,
+#   radiation_therapy &lt;chr&gt;, ragnum_hypoxia_score &lt;dbl&gt;,
+#   number_of_samples_per_patient &lt;dbl&gt;, sample_type &lt;chr&gt;, sex &lt;chr&gt;,
+#   somatic_status &lt;chr&gt;, `__10p_status` &lt;chr&gt;, `__10q_status` &lt;chr&gt;,
+#   `__11p_status` &lt;chr&gt;, `__11q_status` &lt;chr&gt;, `__12p_status` &lt;chr&gt;,
+#   `__12q_status` &lt;chr&gt;, `__13__13q__status` &lt;chr&gt;, `__14__14q__status` &lt;chr&gt;,
+#   `__15__15q__status` &lt;chr&gt;, `__16p_status` &lt;chr&gt;, `__16q_status` &lt;chr&gt;,
+#   `__17p_status` &lt;chr&gt;, `__17q_status` &lt;chr&gt;, `__18p_status` &lt;chr&gt;,
+#   `__18q_status` &lt;chr&gt;, `__19p_status` &lt;chr&gt;, `__19q_status` &lt;chr&gt;,
+#   `__1p_status` &lt;chr&gt;, `__1q_status` &lt;chr&gt;, `__20p_status` &lt;chr&gt;,
+#   `__20q_status` &lt;chr&gt;, `__21__21q__status` &lt;chr&gt;, `__22__22q__status` &lt;chr&gt;,
+#   `__2p_status` &lt;chr&gt;, `__2q_status` &lt;chr&gt;, `__3p_status` &lt;chr&gt;,
+#   `__3q_status` &lt;chr&gt;, `__4p_status` &lt;chr&gt;, `__4q_status` &lt;chr&gt;,
+#   `__5p_status` &lt;chr&gt;, `__5q_status` &lt;chr&gt;, `__6p_status` &lt;chr&gt;,
+#   `__6q_status` &lt;chr&gt;, `__7p_status` &lt;chr&gt;, `__7q_status` &lt;chr&gt;,
+#   `__8p_status` &lt;chr&gt;, `__8q_status` &lt;chr&gt;, `__9p_status` &lt;chr&gt;,
+#   `__9q_status` &lt;chr&gt;, subtype &lt;chr&gt;,
+#   tissue_prospective_collection_indicator &lt;chr&gt;,
+#   tissue_retrospective_collection_indicator &lt;chr&gt;, tissue_source_site &lt;chr&gt;,
+#   tumor_disease_anatomic_site &lt;chr&gt;, tumor_type &lt;chr&gt;,
+#   winter_hypoxia_score &lt;dbl&gt;</code></pre>
+<pre class="r"><code>d &lt;- transmute(dat,
+               diagnosis_age = round(-birth_from_initial_pathologic_diagnosis_date/365.24),
+               sex = factor(sex),
+               race_category = factor(race_category),
+               american_joint_committee_on_cancer_tumor_stage_code = factor(american_joint_committee_on_cancer_tumor_stage_code),
+               mutation_count
+               )
+
+d</code></pre>
+<pre><code># A tibble: 566 x 5
+   diagnosis_age sex    race_category american_joint_committee_o~ mutation_count
+           &lt;dbl&gt; &lt;fct&gt;  &lt;fct&gt;         &lt;fct&gt;                                &lt;dbl&gt;
+ 1            71 Male   &lt;NA&gt;          T2                                     191
+ 2            67 Male   &lt;NA&gt;          T2                                     299
+ 3            80 Female &lt;NA&gt;          T3                                     311
+ 4            68 Male   &lt;NA&gt;          T2                                    1547
+ 5            67 Male   &lt;NA&gt;          T2                                     117
+ 6            70 Male   &lt;NA&gt;          T1                                     210
+ 7            59 Female &lt;NA&gt;          T2                                     518
+ 8            77 Male   &lt;NA&gt;          T4                                     230
+ 9            77 Male   &lt;NA&gt;          T4                                    1287
+10            65 Male   &lt;NA&gt;          T2                                     749
+# ... with 556 more rows</code></pre>
+<pre class="r"><code>with(d,
+     table(round(diagnosis_age, digits = -1), sex)
+)</code></pre>
+<pre><code>    sex
+     Female Male
+  30      1    0
+  40      7    9
+  50     31   17
+  60     88   78
+  70     77   77
+  80     52   40
+  90      4    2</code></pre>
+<pre class="r"><code>with(d,
+     table(race_category, american_joint_committee_on_cancer_tumor_stage_code)
+     )</code></pre>
+<pre><code>                                  american_joint_committee_on_cancer_tumor_stage_code
+race_category                       T1 T1A T1B  T2 T2A T2B  T3  T4  TX
+  American Indian or Alaska Native   0   0   0   1   0   0   0   0   0
+  Asian                              1   1   0   3   2   0   0   0   1
+  Black or African American          9   6   7  10  10   2   6   2   0
+  White                             52  41  46 111  66  25  33  12   2</code></pre>
+<pre class="r"><code>d %&gt;% 
+  ggplot(aes(x=american_joint_committee_on_cancer_tumor_stage_code, col=sex))+
+  geom_bar(position = &quot;dodge&quot;)+
+  theme_dark()</code></pre>
+<p><img src="figure/test.Rmd/unnamed-chunk-6-1.png" width="672" style="display: block; margin: auto;" /></p>
+<pre class="r"><code>with(d,
+     chisq.test(sex, american_joint_committee_on_cancer_tumor_stage_code)
+)</code></pre>
+<pre><code>Warning in chisq.test(sex, american_joint_committee_on_cancer_tumor_stage_code):
+Chi-squared approximation may be incorrect</code></pre>
+<pre><code>
+    Pearson&#39;s Chi-squared test
+
+data:  sex and american_joint_committee_on_cancer_tumor_stage_code
+X-squared = 15.323, df = 8, p-value = 0.05316</code></pre>
+<pre class="r"><code>d %&gt;% 
+  lm(mutation_count~sex+diagnosis_age+american_joint_committee_on_cancer_tumor_stage_code, 
+     data=.)</code></pre>
+<pre><code>
+Call:
+lm(formula = mutation_count ~ sex + diagnosis_age + american_joint_committee_on_cancer_tumor_stage_code, 
+    data = .)
+
+Coefficients:
+                                           (Intercept)  
+                                               520.957  
+                                               sexMale  
+                                                37.299  
+                                         diagnosis_age  
+                                                -3.920  
+american_joint_committee_on_cancer_tumor_stage_codeT1A  
+                                               -38.941  
+american_joint_committee_on_cancer_tumor_stage_codeT1B  
+                                                 1.123  
+ american_joint_committee_on_cancer_tumor_stage_codeT2  
+                                                 3.376  
+american_joint_committee_on_cancer_tumor_stage_codeT2A  
+                                                29.835  
+american_joint_committee_on_cancer_tumor_stage_codeT2B  
+                                                13.728  
+ american_joint_committee_on_cancer_tumor_stage_codeT3  
+                                                54.423  
+ american_joint_committee_on_cancer_tumor_stage_codeT4  
+                                                21.233  
+ american_joint_committee_on_cancer_tumor_stage_codeTX  
+                                              -210.432  </code></pre>
+<pre class="r"><code>d %&gt;% 
+  ggplot(aes(x=diagnosis_age, y=mutation_count))+
+  geom_point()</code></pre>
+<pre><code>Warning: Removed 88 rows containing missing values (geom_point).</code></pre>
+<p><img src="figure/test.Rmd/unnamed-chunk-9-1.png" width="672" style="display: block; margin: auto;" /></p>
 <br>
 <p>
 <button type="button" class="btn btn-default btn-workflowr btn-workflowr-sessioninfo" data-toggle="collapse" data-target="#workflowr-sessioninfo" style="display: block;">
@@ -632,17 +854,26 @@ attached base packages:
 [1] stats     graphics  grDevices utils     datasets  methods   base     
 
 other attached packages:
-[1] workflowr_1.6.2
+ [1] forcats_0.5.0   stringr_1.4.0   dplyr_1.0.0     purrr_0.3.4    
+ [5] readr_1.3.1     tidyr_1.1.0     tibble_3.0.3    ggplot2_3.3.2  
+ [9] tidyverse_1.3.0 workflowr_1.6.2
 
 loaded via a namespace (and not attached):
- [1] Rcpp_1.0.5      rstudioapi_0.11 whisker_0.4     knitr_1.29     
- [5] magrittr_1.5    R6_2.4.1        rlang_0.4.7     stringr_1.4.0  
- [9] tools_3.6.0     xfun_0.15       git2r_0.28.0    htmltools_0.5.0
-[13] ellipsis_0.3.1  rprojroot_1.3-2 yaml_2.2.1      digest_0.6.25  
-[17] tibble_3.0.3    lifecycle_0.2.0 crayon_1.3.4    later_1.1.0.1  
-[21] vctrs_0.3.2     promises_1.1.1  fs_1.4.2        glue_1.4.1     
-[25] evaluate_0.14   rmarkdown_2.3   stringi_1.4.6   compiler_3.6.0 
-[29] pillar_1.4.6    backports_1.1.7 httpuv_1.5.4    pkgconfig_2.0.3</code></pre>
+ [1] tidyselect_1.1.0 xfun_0.15        haven_2.3.1      colorspace_1.4-1
+ [5] vctrs_0.3.2      generics_0.0.2   htmltools_0.5.0  yaml_2.2.1      
+ [9] utf8_1.1.4       blob_1.2.1       rlang_0.4.7      later_1.1.0.1   
+[13] pillar_1.4.6     withr_2.2.0      glue_1.4.1       DBI_1.1.0       
+[17] dbplyr_1.4.4     modelr_0.1.8     readxl_1.3.1     lifecycle_0.2.0 
+[21] munsell_0.5.0    gtable_0.3.0     cellranger_1.1.0 rvest_0.3.5     
+[25] evaluate_0.14    labeling_0.3     knitr_1.29       httpuv_1.5.4    
+[29] fansi_0.4.1      broom_0.7.0      Rcpp_1.0.5       promises_1.1.1  
+[33] backports_1.1.7  scales_1.1.1     jsonlite_1.7.0   farver_2.0.3    
+[37] fs_1.4.2         hms_0.5.3        digest_0.6.25    stringi_1.4.6   
+[41] rprojroot_1.3-2  grid_3.6.0       cli_2.0.2        tools_3.6.0     
+[45] magrittr_1.5     crayon_1.3.4     whisker_0.4      pkgconfig_2.0.3 
+[49] ellipsis_0.3.1   xml2_1.3.2       reprex_0.3.0     lubridate_1.7.9 
+[53] assertthat_0.2.1 rmarkdown_2.3    httr_1.4.1       rstudioapi_0.11 
+[57] R6_2.4.1         git2r_0.28.0     compiler_3.6.0  </code></pre>
 </div>
 </div>
 
