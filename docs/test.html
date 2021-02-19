@@ -496,16 +496,16 @@ This reproducible <a href="http://rmarkdown.rstudio.com">R Markdown</a> analysis
 <div class="panel panel-default">
 <div class="panel-heading">
 <p class="panel-title">
-<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomBastianEichmuellertesttreefb198855508af314712d9af0d680663a1d072c30targetblankfb19885a"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/BastianEichmueller/test/tree/fb198855508af314712d9af0d680663a1d072c30" target="_blank">fb19885</a> </a>
+<a data-toggle="collapse" data-parent="#workflowr-checks" href="#strongRepositoryversionstrongahrefhttpsgithubcomBastianEichmuellertesttreea4f577a8db507a8f3ff19108492a55104cc7d803targetblanka4f577aa"> <span class="glyphicon glyphicon-ok text-success" aria-hidden="true"></span> <strong>Repository version:</strong> <a href="https://github.com/BastianEichmueller/test/tree/a4f577a8db507a8f3ff19108492a55104cc7d803" target="_blank">a4f577a</a> </a>
 </p>
 </div>
-<div id="strongRepositoryversionstrongahrefhttpsgithubcomBastianEichmuellertesttreefb198855508af314712d9af0d680663a1d072c30targetblankfb19885a" class="panel-collapse collapse">
+<div id="strongRepositoryversionstrongahrefhttpsgithubcomBastianEichmuellertesttreea4f577a8db507a8f3ff19108492a55104cc7d803targetblanka4f577aa" class="panel-collapse collapse">
 <div class="panel-body">
 <p>
 Great! You are using Git for version control. Tracking code development and connecting the code version to the results is critical for reproducibility.
 </p>
 <p>
-The results in this page were generated with repository version <a href="https://github.com/BastianEichmueller/test/tree/fb198855508af314712d9af0d680663a1d072c30" target="_blank">fb19885</a>. See the <em>Past versions</em> tab to see a history of the changes made to the R Markdown and HTML files.
+The results in this page were generated with repository version <a href="https://github.com/BastianEichmueller/test/tree/a4f577a8db507a8f3ff19108492a55104cc7d803" target="_blank">a4f577a</a>. See the <em>Past versions</em> tab to see a history of the changes made to the R Markdown and HTML files.
 </p>
 <p>
 Note that you need to be careful to ensure that all relevant files for the analysis have been committed to Git prior to generating the results (you can use <code>wflow_publish</code> or <code>wflow_git_commit</code>). workflowr only checks the R Markdown file, but you know if there are other scripts or data files that it depends on. Below is the status of the Git repository when the results were generated:
@@ -516,9 +516,6 @@ Ignored files:
 
 Untracked files:
     Untracked:  analysis/test2.Rmd
-
-Unstaged changes:
-    Deleted:    analysis/Day3_3_MulitivariableRegression_Exercise.Rmd
 
 </code></pre>
 <p>
@@ -557,6 +554,40 @@ Message
 </tr>
 </thead>
 <tbody>
+<tr>
+<td>
+Rmd
+</td>
+<td>
+<a href="https://github.com/BastianEichmueller/test/blob/a4f577a8db507a8f3ff19108492a55104cc7d803/analysis/test.Rmd" target="_blank">a4f577a</a>
+</td>
+<td>
+BastianEichmueller
+</td>
+<td>
+2021-02-19
+</td>
+<td>
+wflow_publish(files = &quot;analysis/test.Rmd&quot;, republish = TRUE)
+</td>
+</tr>
+<tr>
+<td>
+html
+</td>
+<td>
+<a href="https://rawcdn.githack.com/BastianEichmueller/test/fd0da108f5d92fb9b94e08497128849c85a1167e/docs/test.html" target="_blank">fd0da10</a>
+</td>
+<td>
+BastianEichmueller
+</td>
+<td>
+2021-02-19
+</td>
+<td>
+Build site.
+</td>
+</tr>
 <tr>
 <td>
 html
@@ -868,7 +899,7 @@ race_category                       T1 T1A T1B  T2 T2A T2B  T3  T4  TX
   Black or African American          9   6   7  10  10   2   6   2   0
   White                             52  41  46 111  66  25  33  12   2</code></pre>
 <pre class="r"><code>d %&gt;% 
-  ggplot(aes(x=american_joint_committee_on_cancer_tumor_stage_code, col=sex))+
+  ggplot(aes(x=american_joint_committee_on_cancer_tumor_stage_code, fill=sex))+
   geom_bar(position = &quot;dodge&quot;)</code></pre>
 <p><img src="figure/test.Rmd/unnamed-chunk-6-1.png" width="672" style="display: block; margin: auto;" /></p>
 <pre class="r"><code>with(d,
